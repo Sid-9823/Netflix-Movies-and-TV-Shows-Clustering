@@ -28,11 +28,11 @@ By matching text-based characteristics, we will cluster comparable material.
 
 * We performed our Hypothesis on these 3 statements :
 
- * The United States has the most content, followed by India. India has the most Netflix films.
+   * The United States has the most content, followed by India. India has the most Netflix films.
 
- * According to the count plot, Netflix looks to add the most amount of films and TV series between October and January. This appears to be Netflix's busiest time of year for releasing new content to its site.
+   * According to the count plot, Netflix looks to add the most amount of films and TV series between October and January. This appears to be Netflix's busiest time of year for releasing new content to its site.
 
- * With 5372 movies and 2398 TV shows now accessible on Netflix, the number of movies outnumbers the number of TV series.
+   * With 5372 movies and 2398 TV shows now accessible on Netflix, the number of movies outnumbers the number of TV series.
 
 * We used Z and T tests along with the chi2 test to derive our conclusions.
 
@@ -44,13 +44,13 @@ By matching text-based characteristics, we will cluster comparable material.
 
 * In our 'Textual Data pre-processing' part :
  
- * We removed unnecessary punctuation.
+   * We removed unnecessary punctuation.
 
- * Removed stopwords as they don't contribute much to the sentence.
+   * Removed stopwords as they don't contribute much to the sentence.
    
- * Performed Stemming with the help of 'Snowball Stemmer'.
+   * Performed Stemming with the help of 'Snowball Stemmer'.
    
- * Performed Vectorization with the help of the Tf-idf vectorizer.
+   * Performed Vectorization with the help of the Tf-idf vectorizer.
 
    * Used PCA for dimensionality reduction.
 
@@ -62,10 +62,10 @@ By matching text-based characteristics, we will cluster comparable material.
 
  * K-Means Clustering :
    
-  * Found the optimal number of clusters to be four with the help of the elbow and silhouette score method.
+    * Found the optimal number of clusters to be four with the help of the elbow and silhouette score method.
 
  * Hierarchical Clustering :
 
-  * Used a dendrogram and found out an optimal number of clusters to be five.
+    * Used a dendrogram and found out an optimal number of clusters to be five.
 
 * Built a content-based recommender system by using the cosine similarity matrix and predicted some movies.
