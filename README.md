@@ -52,7 +52,7 @@ By matching text-based characteristics, we will cluster comparable material.
    
  * Performed Vectorization with the help of the Tf-idf vectorizer.
 
- * Used PCA for dimensionality reduction.
+   * Used PCA for dimensionality reduction.
 
 <H3>Model Implementation :</H3>
 
