@@ -32,9 +32,9 @@ By matching text-based characteristics, we will cluster comparable material.
 
  * According to the count plot, Netflix looks to add the most amount of films and TV series between October and January. This appears to be Netflix's busiest time of year for releasing new content to its site.
 
- * ***With 5372 movies and 2398 TV shows now accessible on Netflix, the number of movies outnumbers the number of TV series.
+ * With 5372 movies and 2398 TV shows now accessible on Netflix, the number of movies outnumbers the number of TV series.
 
-* ***We used Z and T tests along with the chi2 test to derive our conclusions.
+* We used Z and T tests along with the chi2 test to derive our conclusions.
 
 <H3>Feature engineering and Data preprocessing</H3>
 
